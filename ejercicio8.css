@@ -1,0 +1,48 @@
+@CHARSET "ISO-8859-1";
+a {
+	margin: 1em 0;
+	float: left;
+	clear: left;
+	padding: 2px;
+	color: #CC0000;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: #CC0000;
+  color: #FFF;
+  }
+  
+a:visited {
+	color: #CCC;
+	}
+	
+a.boton {
+  text-decoration: none;
+  background: #EEE;
+  color: #222;
+  border: 1px outset #CCC;
+  padding: .1em .5em;
+}
+a.boton:hover {
+  background: #CCB;
+}
+a.boton:active {
+  border: 1px inset #000;
+}
+
+
+.rss {
+  color: #E37529;
+  padding: 0 0 0 25px;
+  background: #FFF url(IMAGENES/rss.jpg) no-repeat left center;
+  background-size: 20px 20px;
+  
+}
+ 
+.pdf {
+  padding: 0 0 0 25px;
+  background: #FFF url(IMAGENES/pdf.jpg) no-repeat left center;
+  background-size: 20px 20px;
+}
+

@@ -1,0 +1,11 @@
+@CHARSET "ISO-8859-1";
+#galeria {
+  max-width: 650px;
+ }
+ 
+ #galeria img{
+ loat: left;
+  margin: 1em;
+  padding: .5em;
+  border: 1px solid #CCC;
+ }

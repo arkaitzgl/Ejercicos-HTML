@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+
+<title>Formulario</title>
+<link rel="shortcut icon" href="IMAGENES/índice.jpg" type="image/x-icon"/>
+
+<link rel="stylesheet" type="text/css" href="formularioexamen.css" title="style" />
+
+</head>
+ <body >
+ 
+  <form action=" "  method="post">
+ 	<p>
+	<label> Nombre:<input type="text" id="nombre" name="nombre" autofocus required /></label>
+	<br />
+	<label>Correo Electrónico: <input type="email" name="email_control" required /></label>
+	<br />
+	<label>URL: <input type="url" name="url_control" placeholder="Escribe la URL de tu página web personal" /></label>
+	<br />
+	<label>Fecha: <input type="date" name="date_control" /></label>
+	<br />
+	<label>Hora: <input type="time" name="time_control" /></label>
+	<br />
+	<label>Fecha y hora de nacimiento: <input type="datetime" name="datetime_control" /></label>
+	<br />
+	<label>Mes: <input type="month" name="month_control" /></label>
+	<br />
+	<label>Semana: <input type="week" name="week_control" /></label>
+	<br />
+	<label>Número (min -10, max 10): <input type="number" name="number_control" min="-10" max="10" value="0" /></label>
+	<br />
+	<label>Intervalo (min 0, max 10): <input type="range" name="range_control" min="0" max="10" value="0" /> <output for="range_control" name="range_control_value" >0</output></label>
+	<br />
+	<label>Teléfono: <input type="tel" name="tel_control"/></label>
+	<br />
+	<label>Término de búsqueda: <input type="search" name="search_control" /></label>
+	<br />
+	<label>Color Favorito: <input type="color" name="color_control" /></label>
+	<br />
+	<input  type="submit" value="Enviar" class= "botton" />
+	<input  type="reset"  value="Borrar" class= "botton"/>
+	</p>
+  </form>
+ </body>
+</head>
+</html>

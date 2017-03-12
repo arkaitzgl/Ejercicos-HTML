@@ -1,0 +1,26 @@
+@CHARSET "ISO-8859-1";
+
+body { background-color: #b3e6ff;
+	   font: 1em Arial, Helvetica, sans-serif;;
+}
+
+label {display: block;
+	   margin: .1em;
+}
+
+input:focus {
+  border-radius: 4px solid #000;
+  background: #eaeae1;
+  
+} 
+
+
+input.botton {
+		font-size:1em;
+        font-family:Georgia, "Times New Roman", Times, serif;
+        font-weight: bold;
+        color:white;
+        background:#7a7a52;
+        border:1px;
+        width:90px;
+        height:20px;}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Formulario 3</title>
+</head>
+<body bgcolor="grey">
+<font color ="whiteblue"> 
+<form action="#" >
+<p>
+<label> Nombre de usuario:<input type="text" id="nombre de usuario" name="nombre de usuario" /></label>
+<br />
+<label>Password: <input type="password" id="password" name="password"  /></label>
+<br/>
+<label>Nombre: <input type="text" id="nombre" name="nombre" autofocus required /></label>
+<br />
+<label>Apellidos: <input type="text" id="apellidos" name="apellidos" autofocus required /></label>
+<br />
+<label>Fecha de nacimiento: <input type="date" id="date" name="date" /></label>
+<br/>
+<label>Sexo: <input list="sexo" name="list" /></label>
+<datalist id="sexo">
+    <option label="Masculino" value="M">
+    <option label="Femenino" value="F">
+    <option label="Otros" value="O">
+</datalist>
+<br/>
+Color Favorito: <input type="color" name="color_control" />
+<br />
+<input type="submit" value="Enviar" />
+<input type="reset"  value="Borrar"/>
+
+</p>
+</form>
+</font>
+</body>
+</html>
